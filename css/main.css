@@ -1,0 +1,19 @@
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    border: 2px solid crimson;
+    background-color: #0000fd;
+    /* background-image: url(/images/rectangle-17.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:local ;
+    background-size: 100%;
+    color: white;
+}
+
+.headline {
+    margin: 150px 0px 345px 0px;
+}
