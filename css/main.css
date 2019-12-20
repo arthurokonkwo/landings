@@ -1,19 +1,56 @@
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
 }
 
 .hero {
-    border: 2px solid crimson;
     background-color: #0000fd;
-    /* background-image: url(/images/rectangle-17.png); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment:local ;
-    background-size: 100%;
+    /* background: url(/images/rectangle-17.png); */
+    background-size: cover;
+    opacity: 0.75;
     color: white;
 }
 
+.navbar {
+    padding-top: 50px;
+}
+
 .headline {
-    margin: 150px 0px 345px 0px;
+    padding: 150px 0px 300px 0px;
+}
+
+.headline h1 {
+    font-family: Lato;
+    font-size: 100px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: -5px;
+}
+
+.headline p {
+    opacity: 0.7;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.18px;
+}
+
+.headline button {
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: 4.2px;
+    color: #ffffff;
+    padding: 27px 45px;
+    border-radius: 36px;
+    background-color: #0037ff;
 }
