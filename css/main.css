@@ -1,3 +1,7 @@
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -6,8 +10,11 @@ body {
 
 .hero {
     background-color: #0000fd;
-    /* background: url(/images/rectangle-17.png); */
-    background-size: cover;
+    /* background: url(/images/rectangle-17.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; */
     opacity: 0.75;
     color: white;
 }
@@ -41,7 +48,7 @@ body {
     letter-spacing: 0.18px;
 }
 
-.headline button {
+.headline a {
     font-family: Lato;
     font-size: 14px;
     font-weight: bold;
