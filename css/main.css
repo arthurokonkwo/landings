@@ -40,7 +40,7 @@ body {
 .headline p {
     opacity: 0.7;
     font-family: Poppins;
-    font-size: 1.8rem;
+    font-size: 1.5em;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -77,7 +77,7 @@ body {
 
 .one h3 {
     font-family: Lato;
-    font-size: 4vw;
+    font-size: 5.6em;
     font-weight: 300;
     line-height: 1.2;
     letter-spacing: normal;
@@ -87,7 +87,7 @@ body {
 .one p {
     opacity: 0.5;
     font-family: Poppins;
-    font-size: 1.5vw;
+    font-size: 2.2em;
     line-height: 1.56;
     letter-spacing: 0.16px;
     padding: 0px 55px 50px;
@@ -103,7 +103,7 @@ body {
 
 .two h2 {
     font-family: Lato;
-    font-size: 35px;
+    font-size: 2.2em;
     font-weight: 300;
     line-height: 1.2;
     letter-spacing: normal;
@@ -113,7 +113,7 @@ body {
 
 .two h2 + p {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -140,7 +140,7 @@ body {
 
 .block p:first-of-type {
     font-family: Lato;
-    font-size: 1.3rem;
+    font-size: 1.4em;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -154,7 +154,7 @@ body {
 .block p:last-of-type {
     opacity: 0.65;
     font-family: Poppins;
-    font-size: 1.2rem;
+    font-size: 1.2em;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -166,7 +166,7 @@ body {
 
 .three {
     background-image: url(/images/Image.png);
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -184,7 +184,7 @@ body {
 
 .three h3 {
     font-family: Lato;
-    font-size: 35px;
+    font-size: 2.2em;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -196,7 +196,7 @@ body {
 
 .three p {
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1.1em;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -213,7 +213,7 @@ body {
 
 .four h2 {
     font-family: Lato;
-    font-size: 35px;
+    font-size: 2.2em;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -227,7 +227,7 @@ body {
 .four p {
     opacity: 0.65;
     font-family: Poppins;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -240,7 +240,7 @@ body {
 
 .base h3 {
     font-family: Lato;
-    font-size: 6.5rem;
+    font-size: 5.6em;
     font-weight: 300;
     line-height: 1.2;
     letter-spacing: normal;
@@ -250,7 +250,7 @@ body {
 .base p {
     opacity: 0.5;
     font-family: Poppins;
-    font-size: 2.2rem;
+    font-size: 2.2em;
     line-height: 1.56;
     letter-spacing: 0.16px;
     padding: 0px 55px 50px;
@@ -268,7 +268,7 @@ footer {
 footer p {
     opacity: 0.52;
     font-family: Poppins;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
