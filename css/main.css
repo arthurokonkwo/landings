@@ -8,29 +8,19 @@ html, .content {
 }
 
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: font-size: calc([minimum size] + ([maximum size] - [minimum size]) * ((100vw - [minimum viewport width]) / ([maximum viewport width] - [minimum viewport width])));;
+    font-family: 'Lato', 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
 .hero {
     background-color: #0000fd;
-    /* background: url(/images/rectangle-17.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
     opacity: 0.75;
     color: white;
 }
 
 .navbar {
-    padding-top: 50px;
-    font-size: 1.2rem;
-}
-
-.navbar-brand {
-    font-size: 1.8rem;
+    font-size: 1.2em;
+    padding: 50px 55px 0;
 }
 
 .headline {
@@ -39,7 +29,7 @@ body {
 
 .headline h1 {
     font-family: Lato;
-    font-size: 12rem;
+    font-size: 10.5em;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -58,9 +48,9 @@ body {
     letter-spacing: 0.18px;
 }
 
-.headline a, .one a {
+.headline a, .one a, .base a {
     font-family: Lato;
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -72,7 +62,7 @@ body {
     background-color: #0037ff;
 }
 
-.one, .one img, .two, .three, .four, .five, .base {
+.one, .two, .three, .four, .five, .base {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -87,24 +77,24 @@ body {
 
 .one h3 {
     font-family: Lato;
-    font-size: 5.5rem;
+    font-size: 4vw;
     font-weight: 300;
     line-height: 1.2;
     letter-spacing: normal;
-    padding: 0px 86px 24px;
+    padding: 0px 55px 24px;
 }
 
 .one p {
     opacity: 0.5;
     font-family: Poppins;
-    font-size: 2rem;
+    font-size: 1.5vw;
     line-height: 1.56;
     letter-spacing: 0.16px;
-    padding: 0px 86px 50px;
+    padding: 0px 55px 50px;
 }
 
 .one a {
-    margin: 0px 86px 100px;
+    margin: 0px 55px 100px;
 }
 
 .two {
@@ -136,7 +126,7 @@ body {
 }
 
 .blocks {
-    margin: 50px 55px 105px;
+    padding: 50px 55px 105px;
 }
 
 .block {
@@ -175,5 +165,116 @@ body {
 }
 
 .three {
-    
+    background-image: url(/images/Image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.play {
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+    border-top: 50px solid transparent;
+    border-left: 90px solid white;
+    border-bottom: 50px solid transparent;
+    margin-top: 215px;
+    margin-bottom: 68px;
+}
+
+.three h3 {
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding-bottom: 10px;
+}
+
+.three p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.16px;
+    color: #ffffff;
+    padding-bottom: 20px;
+    margin-bottom: 132px;
+}
+
+.four {
+    background-color: #fafafa;
+}
+
+.four h2 {
+    font-family: Lato;
+    font-size: 35px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 80px;
+    padding-bottom: 10px;
+}
+
+.four p {
+    opacity: 0.65;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: 0.16px;
+    color: #000000;
+    padding-bottom: 20px;
+    margin-bottom: 68px;
+}
+
+.base h3 {
+    font-family: Lato;
+    font-size: 6.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    letter-spacing: normal;
+    padding: 0px 55px 24px;
+}
+
+.base p {
+    opacity: 0.5;
+    font-family: Poppins;
+    font-size: 2.2rem;
+    line-height: 1.56;
+    letter-spacing: 0.16px;
+    padding: 0px 55px 50px;
+}
+
+.base a {
+    margin: 0px 55px 100px;
+}
+
+footer {
+    background-color: #325dff;
+    padding-bottom: 1rem!important;
+}
+
+footer p {
+    opacity: 0.52;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 100px;
 }
